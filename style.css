@@ -1,0 +1,74 @@
+body {
+	text-align: center;
+	background-color: purple
+}
+.nap {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: xx-large;
+}
+
+select  {
+	padding: 20px 20px;
+	color: white;
+	background-color: green;
+}
+
+.wake {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: xx-large;
+}
+.food {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: xx-large;
+}
+
+.btn {
+	align-items: center;
+	justify-content: center;
+	font-size: xx-large;
+	padding: 50px 70px;
+	color: white;
+	background-color: green;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+/*
+body {
+  background-color: #121212;
+}*/
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  color: #66ff99;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#lolcatImage {
+  max-width:30em
+}
+
+
+#lolcat {
+  margin: 0 auto;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 10px;
+  border:10px solid #222;
+}
